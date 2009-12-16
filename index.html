@@ -28,7 +28,9 @@
       .product h2 { margin: 0; padding: 0;font-weight: normal;}
       .product h3 { margin: 0; padding: 0; color: #999;font-weight: normal;}      
       #contact { float: right; text-align: right; margin-top: 10px;}
-      #contact p { margin: 5px; padding: 8;}      
+      #contact p { margin: 5px; padding: 8;}
+      .smaller { font-size: 0.85em }
+      .muted { color: #777; }      
     </style>
   </head>
   <body>
@@ -42,7 +44,11 @@
       <h2 class='tk-m-1c'>a tech entrepreneur in austin, tx</h2>
     </div>
     <div id='page' class='tk-m-1c'>
-      <p>I'm at least partially responsible for these web applications.
+      <p>I'm at least partially responsible for these applications.
+      <div class='product'>
+        <h2><a href='http://healthypractice.com'>HealthyPractice</a></h2>
+        <h3>reimbursement and medical coding services for your healthcare practice</h3>
+      </div>
       <div class='product'>
         <h2><a href='http://tweetriver.com'>TweetRiver</a></h2>
         <h3>Twitter moderation platform for business</h3>
@@ -57,8 +63,18 @@
       </div>
       <div class='product'>
         <h2><a href='http://whenbusy.com'>WhenBusy</a></h2>
-        <h3>don't *ask* me when i'm busy</h3>
+        <h3>don't ask, just schedule</h3>
+      </div>    
+      <div class='product'>
+        <h2><a href='http://fiveruns.com'>FiveRuns Dash</a> 
+          <span class='smaller muted'>(defunct)</span></h2>
+        <h3>flexible analytics for web apps</h3>
       </div>      
+      <div class='product'>
+        <h2><a href='http://github.com/fiveruns/fiveruns_tuneup'>FiveRuns TuneUp</a> 
+          <span class='smaller muted'>(defunct)</h2>
+        <h3>realtime performance analysis for Ruby on Rails apps</h3>
+      </div>        
     </div>
   </body>
 </html>
