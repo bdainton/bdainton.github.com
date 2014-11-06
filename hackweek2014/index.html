@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div id="fb-root"></div>
+    <script>
+    window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '467705629956647',
+          xfbml      : true,
+          version    : 'v2.1'
+        });
+      };
+
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=316830415187168&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));    
+    </script>
+    <div class="container">
+      <form id="search-form" role="form">
+        <div class="form-group">
+          <input class="form-control" id="q" placeholder="Search Facebook">
+        </div>
+        <div class="form-group">
+          <select id="category-select" class="form-control">
+<option>All Page Categories</option>          
+<option>Actor/director</option>
+<option>Aerospace/defense</option>
+<option>Airport</option>
+<option>Album</option>
+<option>Amateur sports team</option>
+<option>Anatomical structure</option>
+<option>Animal</option>
+<option>Animal breed</option>
+<option>App</option>
+<option>App page</option>
+<option>Appliances</option>
+<option>Artist</option>
+<option>Arts/entertainment/nightlife</option>
+<option>Arts/humanities website</option>
+<option>Athlete</option>
+<option>Attractions/things to do</option>
+<option>Author</option>
+<option>Automobiles and parts</option>
+<option>Automotive</option>
+<option>Baby goods/kids goods</option>
+<option>Bags/luggage</option>
+<option>Bank/financial institution</option>
+<option>Bank/financial services</option>
+<option>Bar</option>
+<option>Biotechnology</option>
+<option>Book</option>
+<option>Book genre</option>
+<option>Book store</option>
+<option>Building materials</option>
+<option>Business person</option>
+<option>Business services</option>
+<option>Business/economy website</option>
+<option>Camera/photo</option>
+<option>Cars</option>
+<option>Cause</option>
+<option>Chef</option>
+<option>Chemicals</option>
+<option>Church/religious organization</option>
+<option>City</option>
+<option>Clothing</option>
+<option>Club</option>
+<option>Coach</option>
+<option>Color</option>
+<option>Comedian</option>
+<option>Commercial equipment</option>
+<option>Community</option>
+<option>Community organization</option>
+<option>Community/government</option>
+<option>Company</option>
+<option>Computers</option>
+<option>Computers/internet website</option>
+<option>Computers/technology</option>
+<option>Concert tour</option>
+<option>Concert venue</option>
+<option>Consulting/business services</option>
+<option>Continent</option>
+<option>Country</option>
+<option>Dancer</option>
+<option>Degree</option>
+<option>Diseases</option>
+<option>Doctor</option>
+<option>Drink</option>
+<option>Drugs</option>
+<option>Editor</option>
+<option>Education</option>
+<option>Education website</option>
+<option>Electronics</option>
+<option>Energy/utility</option>
+<option>Engineering/construction</option>
+<option>Entertainer</option>
+<option>Entertainment website</option>
+<option>Episode</option>
+<option>Event planning/event services</option>
+<option>Farming/agriculture</option>
+<option>Fictional character</option>
+<option>Field of study</option>
+<option>Food</option>
+<option>Food/beverages</option>
+<option>Food/grocery</option>
+<option>Furniture</option>
+<option>Games/toys</option>
+<option>Government official</option>
+<option>Government organization</option>
+<option>Government website</option>
+<option>Health/beauty</option>
+<option>Health/medical/pharmaceuticals</option>
+<option>Health/medical/pharmacy</option>
+<option>Health/wellness website</option>
+<option>Home decor</option>
+<option>Home improvement</option>
+<option>Home/garden website</option>
+<option>Hospital/clinic</option>
+<option>Hotel</option>
+<option>Household supplies</option>
+<option>Industrials</option>
+<option>Insurance company</option>
+<option>Interest</option>
+<option>Internet/software</option>
+<option>Jewelry/watches</option>
+<option>Journalist</option>
+<option>Kitchen/cooking</option>
+<option>Landmark</option>
+<option>Language</option>
+<option>Lawyer</option>
+<option>Legal/law</option>
+<option>Library</option>
+<option>Local business</option>
+<option>Local/travel website</option>
+<option>Magazine</option>
+<option>Media/news/publishing</option>
+<option>Medical procedure</option>
+<option>Mining/materials</option>
+<option>Monarch</option>
+<option>Movie</option>
+<option>Movie general</option>
+<option>Movie genre</option>
+<option>Movie theater</option>
+<option>Movies/music</option>
+<option>Museum/art gallery</option>
+<option>Music</option>
+<option>Music award</option>
+<option>Music chart</option>
+<option>Music video</option>
+<option>Musical genre</option>
+<option>Musical instrument</option>
+<option>Musician/band</option>
+<option>Neighborhood</option>
+<option>News personality</option>
+<option>News/media website</option>
+<option>Non-governmental organization (ngo)</option>
+<option>Non-profit organization</option>
+<option>Office supplies</option>
+<option>Organization</option>
+<option>Other</option>
+<option>Outdoor gear/sporting goods</option>
+<option>Patio/garden</option>
+<option>Personal blog</option>
+<option>Personal website</option>
+<option>Pet services</option>
+<option>Pet supplies</option>
+<option>Playlist</option>
+<option>Political ideology</option>
+<option>Political organization</option>
+<option>Political party</option>
+<option>Politician</option>
+<option>Producer</option>
+<option>Product/service</option>
+<option>Professional services</option>
+<option>Professional sports team</option>
+<option>Public figure</option>
+<option>Public places</option>
+<option>Publisher</option>
+<option>Radio station</option>
+<option>Real estate</option>
+<option>Record label</option>
+<option>Recreation/sports website</option>
+<option>Reference website</option>
+<option>Regional website</option>
+<option>Religion</option>
+<option>Restaurant/cafe</option>
+<option>Retail and consumer merchandise</option>
+<option>School</option>
+<option>School sports team</option>
+<option>Science website</option>
+<option>Shopping/retail</option>
+<option>Small business</option>
+<option>Society/culture website</option>
+<option>Software</option>
+<option>Song</option>
+<option>Spas/beauty/personal care</option>
+<option>Sport</option>
+<option>Sports league</option>
+<option>Sports venue</option>
+<option>Sports/recreation/activities</option>
+<option>State/province/region</option>
+<option>Studio</option>
+<option>Teacher</option>
+<option>Teens/kids website</option>
+<option>Telecommunication</option>
+<option>Tools/equipment</option>
+<option>Tours/sightseeing</option>
+<option>Transit stop</option>
+<option>Transport/freight</option>
+<option>Transportation</option>
+<option>Travel/leisure</option>
+<option>Tv</option>
+<option>Tv channel</option>
+<option>Tv genre</option>
+<option>Tv network</option>
+<option>Tv show</option>
+<option>Tv/movie award</option>
+<option>University</option>
+<option>Vitamins/supplements</option>
+<option>Website</option>
+<option>Wine/spirits</option>
+<option>Work position</option>
+<option>Writer</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Go!</button>
+      </form>
+
+      <div id='results'>
+        <div id='timeseries' class='section'>
+          <h2 id='timeseries-summary' class='summary'></h2>
+          <p id='timeseries-chart'></p>
+        </div>
+        <div id='terms' class='section'>
+          <h2 id='terms-summary' class='summary'>Top Terms</h2>
+          <div id='terms-top5'></div>
+          <div id='terms-rest'></div>
+        </div>
+        <div id='posts' class='section'>
+          <h2 id='posts-summary' class='summary'>Top Posts</h2>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script>
+      google.load("visualization", "1", {packages:["corechart"]});
+    </script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
