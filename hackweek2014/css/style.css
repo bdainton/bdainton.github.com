@@ -13,8 +13,7 @@
 
 #timeseries {
   width: 100%;
-  height: 300px;
-  display: none;
+  height: 250px;
 }
 
 .section {
@@ -22,7 +21,7 @@
 }
 
 .term {
-
+  color: #666;
 }
 
 #terms-summary, #posts-summary {

@@ -10,29 +10,28 @@ $(document).ready(function() {
       category = "\"" + category + "\"";
     }
     getTopTerms(time, text, category);
-    // getTimeSeries(time, text, category);
+    getTimeSeries(time, text, category);
     getEntities(time, text, category);
     $('.summary').fadeIn(2000);
     return false;
   });
 
   function getTimeSeries(time, text, category) {
-    // $('#results #timeseries').fadeOut(1000);
-    var url = "http://sam.massrel.com/search/search.json?filter.start=" + time + "&filter.finish=0&network=facebook&view.timeseries=true&filter.text=" + text + "&filter.category=" + encodeURIComponent(category) + "&view.timeseries.resolution=15m";
-
+    var url = "http://sam.massrel.com/search/search.json?filter.start=" + time + "&filter.finish=0&network=facebook&view.activities=true&q=" + encodeURIComponent(text) + "&filter.category=" + encodeURIComponent(category) + "&view.activities.resolution=15m";
     $.ajax({
       url: url,
       crossDomain: true,
       context: document.body
     }).done(function(data) {
-      var results = data.views.timeseries.data;
-      var total = data.views.timeseries.counts.total;
+      var results = data.views.activities.data;
+      var size = results.length;
       var counts = $.map(results, function(val, i) {
-        return [[parseInt(i), parseInt(val.counts.total)]];
+        var minsAgo = -15 * (size - i);
+        return [[minsAgo, parseInt(val.counts.total)]];
       });
-      counts.unshift(["Index", "Post Count"]);
+      counts.unshift(["Mins Ago", "Comments + Likes"]);
       
-      displayTimeSeries(total, counts);
+      displayTimeSeries(0, counts);
       return;
     });
     return;
@@ -40,12 +39,11 @@ $(document).ready(function() {
 
   function displayTimeSeries(total, counts, category) {
     var $summary = $('#timeseries-summary');
-    $summary.html('Found ' + total + ' posts over the last 24h.');
+    $summary.html('Post engagement (comments + likes) over the last 24h.');
 
     var data = google.visualization.arrayToDataTable(counts);
 
     var options = {
-      title: 'Posts over Time',
       curveType: 'function',
       legend: { position: 'bottom' }
     };
@@ -59,7 +57,7 @@ $(document).ready(function() {
     $('#posts .fb-post').fadeOut(1000);
 
     $.ajax({
-      url: "http://sam.massrel.com/search/search.json?filter.start=" + time + "&filter.finish=0&network=facebook&filter.text=" + text + "&filter.category=" + encodeURIComponent(category) + "&view.entities=true&view.entities.sort=activity&view.counts=true&view.entities.limit=20",
+      url: "http://sam.massrel.com/search/search.json?filter.start=" + time + "&filter.finish=0&network=facebook&q=" + encodeURIComponent(text) + "&filter.category=" + encodeURIComponent(category) + "&view.entities=true&view.entities.sort=activity&view.counts=true&view.entities.limit=20",
       crossDomain: true,
       context: document.body
     }).done(function(data) {
@@ -99,7 +97,7 @@ $(document).ready(function() {
     $('#terms .term').fadeOut(1000);
 
     $.ajax({
-      url: "http://sam.massrel.com/search/search.json?filter.start=" + time + "&filter.finish=0&network=facebook&filter.text=" + text + "&filter.category=" + encodeURIComponent(category) + "&view.terms=true",
+      url: "http://sam.massrel.com/search/search.json?filter.start=" + time + "&filter.finish=0&network=facebook&q=" + encodeURIComponent(text) + "&filter.category=" + encodeURIComponent(category) + "&view.terms=true",
       crossDomain: true,
       context: document.body
     }).done(function(data) {
