@@ -17,7 +17,7 @@ $(document).ready(function() {
   });
 
   function getTimeSeries(time, text, category) {
-    var url = "http://sam.massrel.com/search/search.json?filter.start=" + time + "&filter.finish=0&network=facebook&view.activities=true&filter.text=" + encodeURIComponent(text) + "&filter.category=" + encodeURIComponent(category) + "&view.activities.resolution=15m";
+    var url = "http://sam.massrel.com/search/search.json?filter.start=" + time + "&filter.finish=0&network=facebook&filter.text=" + encodeURIComponent(text) + "&filter.category=" + encodeURIComponent(category) + "&view.activities.resolution=15m";
     $.ajax({
       url: url,
       crossDomain: true,
@@ -57,7 +57,7 @@ $(document).ready(function() {
     $('#posts .fb-post').fadeOut(1000);
 
     $.ajax({
-      url: "http://sam.massrel.com/search/search.json?filter.start=" + time + "&filter.finish=0&network=facebook&filter.text=" + encodeURIComponent(text) + "&filter.category=" + encodeURIComponent(category) + "&view.entities=true&view.entities.sort=activity&view.counts=true&view.entities.limit=20",
+      url: "http://sam.massrel.com/search/search.json?filter.start=" + time + "&filter.finish=0&network=facebook&filter.text=" + encodeURIComponent(text) + "&filter.category=" + encodeURIComponent(category) + "&view.entities=true&view.entities.sort=activity&view.entities.limit=20",
       crossDomain: true,
       context: document.body
     }).done(function(data) {
