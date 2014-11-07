@@ -2,7 +2,7 @@ $(document).ready(function() {
   // $('.container').fadeOut(3000);
   $('#search-form').submit(function() {
     var text = $('#q').val();
-    var time = "-1d";
+    var time = "-3d";
     var category = $('#category-select').val();
     if (category == "All Page Categories") {
       category = "";
@@ -39,7 +39,7 @@ $(document).ready(function() {
 
   function displayTimeSeries(total, counts, category) {
     var $summary = $('#timeseries-summary');
-    $summary.html('Post engagement (comments + likes) over the last 24h.');
+    $summary.html('Post engagement (comments + likes) over the last 3 days.');
 
     var data = google.visualization.arrayToDataTable(counts);
 
