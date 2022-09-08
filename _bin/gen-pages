@@ -20,23 +20,34 @@ datafiles.each do |datafile|
     key = video["key"]
     page_key = "#{section}-#{key}"
     title = video["title"]
-    description = video["description"]
     thumbnail = video["thumbnail"]
     premium = video["premium"]
 
     File.open(outdir + "/#{section}-#{video["key"]}.html", "w+") do |f|
       content = <<CONTENT
---      
+---
 layout: page
 key: #{key}
-title: #{title}
+title: \"#{title}\"
 pageKey: #{page_key}
-description: #{description}
 thumbnail: #{thumbnail}
 premium: #{premium}
---
+---
 CONTENT
       f.puts content
     end
   end
+end
+
+# write index page to redirect to the first home video page
+content = <<CONTENT
+<html>
+<head>
+<meta http-equiv="refresh" content="0; URL=home-0JVN2uLaY88.html" />
+</head>
+</html>
+CONTENT
+
+File.open(outdir + "/index.html", "w+") do |f|
+  f.puts content
 end
