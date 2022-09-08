@@ -1,0 +1,109 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google Tag Manager -->
+  <!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-M29NN82');</script> -->
+  <!-- End Google Tag Manager -->
+
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width,initial-scale=1'>	
+  <link rel="icon" type="image/png" href="https://briandainton.com/assets/img/favicon.png?1">
+
+	<title>{{ page.title }}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+
+	<link rel='stylesheet' href='/global.css'>
+  <link rel='stylesheet' href='/index.css'>
+	<link rel='stylesheet' href='/build/bundle.css'>
+
+  <meta name="description" content="{{ page.description }}">
+  <meta itemprop="name" content="{{ page.title }}">
+  <meta itemprop="description" content="{{ page.description }}">
+  <meta itemprop="image" content="{{ page.thumbnailLarge }}">
+  <meta property="og:url" content="https://briandainton.com/companion/{{page.pageKey}}.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="{{ page.description }}">
+  <meta property="og:image" content="{{ page.thumbnailLarge }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.title }}">
+  <meta name="twitter:description" content="{{ page.description }}">
+  <meta name="twitter:image" content="{{ page.thumbnailLarge }}">
+  
+  <script src="https://www.youtube.com/iframe_api"></script>
+	<script defer src='/build/bundle.js'></script>  
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+<!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M29NN82"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
+  <!-- End Google Tag Manager (noscript) -->
+
+  <script>
+    // // 2. This code loads the IFrame Player API code asynchronously.
+  // var tag = document.createElement("script");
+
+  // tag.src = "https://www.youtube.com/iframe_api";
+  // var firstScriptTag = document.getElementsByTagName("script")[0];
+  // firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+  // 3. This function creates an <iframe> (and YouTube player)
+  //    after the API code downloads.
+  var ytplayer;
+  var ytplayerReady = false;
+  function onYouTubeIframeAPIReady() {
+    console.log("onYouTubeIframeAPIReady!");
+    ytplayer = new YT.Player("player", {
+      height: "390",
+      width: "640",      
+      // videoId: "WX5Ax9-PoHY",
+      playerVars: {
+        playsinline: 1,
+        // "cc_load_policy": 1,
+        // "cc_lang_pref": "en"        
+      },
+      events: {   
+        // onApiChange: initialize,
+        onReady: onPlayerReady,
+        onStateChange: onPlayerStateChange,
+      },
+    });    
+  }  
+
+  // 4. The API will call this function when the video player is ready.
+  function onPlayerReady(event) {
+    ytplayerReady = true;    
+  }
+
+  // 5. The API calls this function when the player's state changes.
+  //    The function indicates that when playing a video (state=1),
+  //    the player should play for six seconds and then stop.
+  var done = false;
+  function onPlayerStateChange(event) {
+    if (event && event.target) {
+      // console.log(event.target.videoTitle);
+      console.log("--- " + event.target.getVideoUrl());
+    } else {
+      console.log("no event target");
+    }
+    
+    // if (event.data == YT.PlayerState.PLAYING && !done) {
+    //   setTimeout(stopVideo, 6000);
+    //   done = true;
+    // }
+  }
+  function stopVideo() {
+    ytplayer.stopVideo();
+  }
+  </script>
+  </body>
+</html>

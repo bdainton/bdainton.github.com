@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  a {
+    @apply text-red100;
+  }
+
+  p {
+    @apply py-2
+  }
+
+  .small-caps {
+    font-variant: small-caps;
+  }
+
+
+  @media (min-width: 640px) {
+    .w-fixed-sm {
+        flex: 0 1 210px;
+        min-width: 210px;
+    }
+    .w-fixed-md {
+      flex: 0 1 280px;
+      min-width: 280px;
+    }
+  }
+}
