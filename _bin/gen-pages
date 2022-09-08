@@ -1,0 +1,42 @@
+#!/usr/bin/env ruby
+
+require "json"
+require "fileutils"
+
+puts "Deleting existing pages..."
+outdir = __dir__ + "/../companion/"
+FileUtils.rm_rf outdir, :verbose => true
+FileUtils.mkdir_p outdir
+
+datafiles = Dir.entries(__dir__ + "/../data")
+datafiles.each do |datafile|
+  next if datafile !~ /json/
+  puts datafile
+
+  section = datafile.split(".").first
+
+  videos = JSON.parse(File.read(__dir__ + "/../data/" + datafile))
+  videos.each do |video|
+    key = video["key"]
+    page_key = "#{section}-#{key}"
+    title = video["title"]
+    description = video["description"]
+    thumbnail = video["thumbnail"]
+    premium = video["premium"]
+
+    File.open(outdir + "/#{section}-#{video["key"]}.html", "w+") do |f|
+      content = <<CONTENT
+--      
+layout: page
+key: #{key}
+title: #{title}
+pageKey: #{page_key}
+description: #{description}
+thumbnail: #{thumbnail}
+premium: #{premium}
+--
+CONTENT
+      f.puts content
+    end
+  end
+end
