@@ -1,10 +1,34 @@
 [
   {
-    "title": "Welcome to the Engineering Manager's Companion",
-    "key": "KS1K17aBE20",
+    "title": "Engineering Manager Pop Quiz #1: What Would You Do?",
+    "key": "m8aFnIfPIbs",
     "premium": false,
-    "thumbnail": "https://i.ytimg.com/vi/KS1K17aBE20/sddefault.jpg",
-    "duration": 128,
-    "publishedAt": "2022-06-23T18:38:01Z"
+    "thumbnail": "https://i.ytimg.com/vi/m8aFnIfPIbs/default.jpg",
+    "duration": 119,
+    "publishedAt": "2022-02-08T15:40:26Z"
+  },
+  {
+    "title": "Engineering Manager Pop Quiz #2: What Would You Do?",
+    "key": "Fb93eKj-vI8",
+    "premium": false,
+    "thumbnail": "https://i.ytimg.com/vi/Fb93eKj-vI8/default.jpg",
+    "duration": 120,
+    "publishedAt": "2022-02-21T18:35:11Z"
+  },
+  {
+    "title": "Engineering Manager Pop Quiz #3: What Would You Do?",
+    "key": "L8XqRVE1IKc",
+    "premium": false,
+    "thumbnail": "https://i.ytimg.com/vi/L8XqRVE1IKc/default.jpg",
+    "duration": 120,
+    "publishedAt": "2022-03-02T18:46:06Z"
+  },
+  {
+    "title": "Engineering Manager Pop Quiz #4: What Would You Do?",
+    "key": "phokuxwbOzM",
+    "premium": false,
+    "thumbnail": "https://i.ytimg.com/vi/phokuxwbOzM/default.jpg",
+    "duration": 152,
+    "publishedAt": "2022-03-10T16:30:25Z"
   }
 ]

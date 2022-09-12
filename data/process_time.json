@@ -1,10 +1,50 @@
 [
   {
-    "title": "Welcome to the Engineering Manager's Companion",
-    "key": "KS1K17aBE20",
+    "title": "Run Better Standups | Engineering Leadership",
+    "key": "kdxdI5zs_p0",
     "premium": false,
-    "thumbnail": "https://i.ytimg.com/vi/KS1K17aBE20/sddefault.jpg",
+    "thumbnail": "https://i.ytimg.com/vi/kdxdI5zs_p0/default.jpg",
+    "duration": 31,
+    "publishedAt": "2022-03-14T20:42:35Z"
+  },
+  {
+    "title": "How to Fix All Your Meetings | Engineering Management",
+    "key": "5TjDqSBoNCk",
+    "premium": false,
+    "thumbnail": "https://i.ytimg.com/vi/5TjDqSBoNCk/default.jpg",
+    "duration": 81,
+    "publishedAt": "2022-03-14T20:40:15Z"
+  },
+  {
+    "title": "Software Development Project Planning Tips | Engineering Management",
+    "key": "n3c1DjprPd0",
+    "premium": false,
+    "thumbnail": "https://i.ytimg.com/vi/n3c1DjprPd0/default.jpg",
     "duration": 128,
-    "publishedAt": "2022-06-23T18:38:01Z"
+    "publishedAt": "2022-03-01T22:58:44Z"
+  },
+  {
+    "title": "Too Many Work Meetings? | One Simple Trick to Get Things Done",
+    "key": "FUw5EC3pr0Q",
+    "premium": false,
+    "thumbnail": "https://i.ytimg.com/vi/FUw5EC3pr0Q/default.jpg",
+    "duration": 30,
+    "publishedAt": "2022-02-19T23:26:19Z"
+  },
+  {
+    "title": "#FOCUS | Steal This Team Alignment Practice",
+    "key": "lzsgAe-MyyM",
+    "premium": false,
+    "thumbnail": "https://i.ytimg.com/vi/lzsgAe-MyyM/default.jpg",
+    "duration": 62,
+    "publishedAt": "2022-02-14T19:57:10Z"
+  },
+  {
+    "title": "To Be a Great Engineering Manager, Be Boring",
+    "key": "0JVN2uLaY88",
+    "premium": false,
+    "thumbnail": "https://i.ytimg.com/vi/0JVN2uLaY88/default.jpg",
+    "duration": 95,
+    "publishedAt": "2022-02-03T20:19:53Z"
   }
 ]

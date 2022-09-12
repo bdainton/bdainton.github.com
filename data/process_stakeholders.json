@@ -1,10 +1,42 @@
 [
   {
-    "title": "Welcome to the Engineering Manager's Companion",
-    "key": "KS1K17aBE20",
+    "title": "How to Fix All Your Meetings | Engineering Management",
+    "key": "5TjDqSBoNCk",
     "premium": false,
-    "thumbnail": "https://i.ytimg.com/vi/KS1K17aBE20/sddefault.jpg",
-    "duration": 128,
-    "publishedAt": "2022-06-23T18:38:01Z"
+    "thumbnail": "https://i.ytimg.com/vi/5TjDqSBoNCk/default.jpg",
+    "duration": 81,
+    "publishedAt": "2022-03-14T20:40:15Z"
+  },
+  {
+    "title": "Improve Morale on Your Dev Team | Engineering Leadership",
+    "key": "i47oe3_w89I",
+    "premium": false,
+    "thumbnail": "https://i.ytimg.com/vi/i47oe3_w89I/default.jpg",
+    "duration": 75,
+    "publishedAt": "2022-03-03T17:57:56Z"
+  },
+  {
+    "title": "#FOCUS | Steal This Team Alignment Practice",
+    "key": "lzsgAe-MyyM",
+    "premium": false,
+    "thumbnail": "https://i.ytimg.com/vi/lzsgAe-MyyM/default.jpg",
+    "duration": 62,
+    "publishedAt": "2022-02-14T19:57:10Z"
+  },
+  {
+    "title": "3 Key Dev Team Metrics | Engineering Leadership",
+    "key": "YSouXkUg6E4",
+    "premium": false,
+    "thumbnail": "https://i.ytimg.com/vi/YSouXkUg6E4/default.jpg",
+    "duration": 116,
+    "publishedAt": "2022-02-10T13:20:44Z"
+  },
+  {
+    "title": "To Be a Great Engineering Manager, Be Boring",
+    "key": "0JVN2uLaY88",
+    "premium": false,
+    "thumbnail": "https://i.ytimg.com/vi/0JVN2uLaY88/default.jpg",
+    "duration": 95,
+    "publishedAt": "2022-02-03T20:19:53Z"
   }
 ]
