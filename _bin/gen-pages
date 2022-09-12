@@ -14,27 +14,42 @@ datafiles.each do |datafile|
   puts datafile
 
   section = datafile.split(".").first
+  section_outdir = "#{outdir}/#{section}"
+  FileUtils.mkdir_p(section_outdir)
 
   videos = JSON.parse(File.read(__dir__ + "/../data/" + datafile))
-  videos.each do |video|
+  videos.each_with_index do |video, index|
     key = video["key"]
-    page_key = "#{section}-#{key}"
     title = video["title"]
     thumbnail = video["thumbnail"]
     premium = video["premium"]
 
-    File.open(outdir + "/#{section}-#{video["key"]}.html", "w+") do |f|
+    File.open(section_outdir + "/#{key}.html", "w+") do |f|
       content = <<CONTENT
 ---
 layout: page
+section: #{section}
 key: #{key}
 title: \"#{title}\"
-pageKey: #{page_key}
 thumbnail: #{thumbnail}
 premium: #{premium}
 ---
 CONTENT
       f.puts content
+    end
+
+    # if this is the first video, also write an index file to redirect to it
+    if index == 0
+      File.open(section_outdir + "/index.html", "w+") do |f|
+        content = <<CONTENT
+<html>
+<head>
+<meta http-equiv="refresh" content="0; URL=/companion/#{section}/#{key}.html" />
+</head>
+</html>
+CONTENT
+        f.puts content
+      end
     end
   end
 end
@@ -43,7 +58,7 @@ end
 content = <<CONTENT
 <html>
 <head>
-<meta http-equiv="refresh" content="0; URL=home-0JVN2uLaY88.html" />
+<meta http-equiv="refresh" content="0; URL=/companion/home" />
 </head>
 </html>
 CONTENT
