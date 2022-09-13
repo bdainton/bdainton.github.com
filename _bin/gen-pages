@@ -10,7 +10,7 @@ FileUtils.mkdir_p outdir
 
 datafiles = Dir.entries(__dir__ + "/../data")
 datafiles.each do |datafile|
-  next if datafile !~ /json/
+  next if datafile !~ /json/ || datafile =~ /premium/
   puts datafile
 
   section = datafile.split(".").first
@@ -23,6 +23,7 @@ datafiles.each do |datafile|
     title = video["title"]
     thumbnail = video["thumbnail"]
     premium = video["premium"]
+    description = video["description"] || ""
 
     File.open(section_outdir + "/#{key}.html", "w+") do |f|
       content = <<CONTENT
@@ -32,7 +33,8 @@ section: #{section}
 key: #{key}
 title: \"#{title}\"
 thumbnail: #{thumbnail}
-premium: #{premium}
+premium: #{premium} 
+description: "#{description.gsub("\n", "\\n").gsub('"', '\"')}"
 ---
 CONTENT
       f.puts content
