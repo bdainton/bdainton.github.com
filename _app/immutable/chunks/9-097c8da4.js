@@ -1,0 +1,1 @@
+import{_ as t}from"./_page-22748e52.js";import{default as a}from"../components/pages/companion/lessons/_lesson_/_video_/_page.svelte-370ea1d4.js";const e=!0;export{a as component,e as server,t as shared};
