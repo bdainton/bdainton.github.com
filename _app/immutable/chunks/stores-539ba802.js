@@ -1,0 +1,1 @@
+import{w as e}from"./index-a8c01052.js";let a=null,i=!1,l=!1,n=!0,t={key:null,active:!1,expired:!1,expiresAt:null,lastValidatedAtTimestamp:null};{const s=localStorage.getItem("license");s?(l=!0,t=JSON.parse(s)):l=!0}const o=e(t),r=e(l),d=e(i),u=e(a),y=e(n);export{d as a,u as b,r as c,y as d,o as l};
