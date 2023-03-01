@@ -1,11 +1,11 @@
 {
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-647c3d59.js",
+    "file": "_app/immutable/start-fc0c7242.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_index-ef4f97a1.js",
-      "_singletons-f208db6b.js"
+      "_index-ccda9a55.js",
+      "_singletons-47064a3f.js"
     ],
     "dynamicImports": [
       ".svelte-kit/generated/nodes/0.js",
@@ -26,494 +26,189 @@
       ".svelte-kit/generated/nodes/15.js",
       ".svelte-kit/generated/nodes/16.js",
       ".svelte-kit/generated/nodes/17.js",
-      ".svelte-kit/generated/nodes/18.js",
-      ".svelte-kit/generated/nodes/19.js",
-      ".svelte-kit/generated/nodes/20.js",
-      ".svelte-kit/generated/nodes/21.js",
-      ".svelte-kit/generated/nodes/22.js",
-      ".svelte-kit/generated/nodes/23.js",
-      ".svelte-kit/generated/nodes/24.js",
-      ".svelte-kit/generated/nodes/25.js",
-      ".svelte-kit/generated/nodes/26.js",
-      ".svelte-kit/generated/nodes/27.js",
-      ".svelte-kit/generated/nodes/28.js",
-      ".svelte-kit/generated/nodes/29.js",
-      ".svelte-kit/generated/nodes/30.js",
-      ".svelte-kit/generated/nodes/31.js",
-      ".svelte-kit/generated/nodes/32.js",
-      ".svelte-kit/generated/nodes/33.js",
-      ".svelte-kit/generated/nodes/34.js",
-      ".svelte-kit/generated/nodes/35.js",
-      ".svelte-kit/generated/nodes/36.js",
-      ".svelte-kit/generated/nodes/37.js",
-      ".svelte-kit/generated/nodes/38.js"
+      ".svelte-kit/generated/nodes/18.js"
     ]
   },
   "src/routes/+layout.svelte": {
-    "file": "_app/immutable/components/pages/_layout.svelte-d33e6439.js",
+    "file": "_app/immutable/components/pages/_layout.svelte-e01cc07a.js",
     "src": "src/routes/+layout.svelte",
     "isEntry": true,
     "imports": [
-      "_index-ef4f97a1.js"
+      "_index-ccda9a55.js",
+      "_stores-b50e8b2c.js"
     ],
     "css": [
-      "_app/immutable/assets/app-962a32cc.css"
+      "_app/immutable/assets/_layout-acac6268.css"
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
-    "file": "_app/immutable/components/error.svelte-2b2f1bc0.js",
+    "file": "_app/immutable/components/error.svelte-b28d6272.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
     "isEntry": true,
     "imports": [
-      "_index-ef4f97a1.js",
-      "_stores-e24c4eb2.js"
+      "_index-ccda9a55.js",
+      "_stores-b50e8b2c.js"
     ]
   },
-  "src/routes/companion/+layout.svelte": {
-    "file": "_app/immutable/components/pages/companion/_layout.svelte-dc9f5735.js",
-    "src": "src/routes/companion/+layout.svelte",
+  "src/routes/media/5-things-to-be-a-great-leader/+layout.svelte": {
+    "file": "_app/immutable/components/pages/media/5-things-to-be-a-great-leader/_layout.svelte-6859e90e.js",
+    "src": "src/routes/media/5-things-to-be-a-great-leader/+layout.svelte",
     "isEntry": true,
     "imports": [
-      "_index-ef4f97a1.js",
-      "_Icon-35397eaa.js",
-      "_stores-e24c4eb2.js"
-    ],
-    "css": [
-      "_app/immutable/assets/app-962a32cc.css"
+      "_index-ccda9a55.js",
+      "_info-13a7f95e.js",
+      "_Heading-ad846718.js"
     ]
   },
-  "src/routes/companion/bak-playbooks/+layout.svelte": {
-    "file": "_app/immutable/components/pages/companion/bak-playbooks/_layout.svelte-faf14d10.js",
-    "src": "src/routes/companion/bak-playbooks/+layout.svelte",
+  "src/routes/media/drunk-web-ep-45-engineering-management/+layout.svelte": {
+    "file": "_app/immutable/components/pages/media/drunk-web-ep-45-engineering-management/_layout.svelte-e6260133.js",
+    "src": "src/routes/media/drunk-web-ep-45-engineering-management/+layout.svelte",
     "isEntry": true,
     "imports": [
-      "_index-ef4f97a1.js",
-      "_LicenseKeyInfo-e10c741a.js"
+      "_index-ccda9a55.js",
+      "_info-13a7f95e.js",
+      "_Heading-ad846718.js"
     ]
   },
-  "src/routes/companion/bak-playbooks/founding/+layout.svelte": {
-    "file": "_app/immutable/components/pages/companion/bak-playbooks/founding/_layout.svelte-81524a7c.js",
-    "src": "src/routes/companion/bak-playbooks/founding/+layout.svelte",
+  "src/routes/media/magic-moments/+layout.svelte": {
+    "file": "_app/immutable/components/pages/media/magic-moments/_layout.svelte-bb477ffe.js",
+    "src": "src/routes/media/magic-moments/+layout.svelte",
     "isEntry": true,
     "imports": [
-      "_index-ef4f97a1.js",
-      "_Icon-35397eaa.js"
+      "_index-ccda9a55.js",
+      "_info-13a7f95e.js",
+      "_Heading-ad846718.js"
     ]
   },
-  "src/routes/companion/playbook/+layout.svelte": {
-    "file": "_app/immutable/components/pages/companion/playbook/_layout.svelte-a37eaa28.js",
-    "src": "src/routes/companion/playbook/+layout.svelte",
+  "src/routes/media/rocks-pebbles-sand/+layout.svelte": {
+    "file": "_app/immutable/components/pages/media/rocks-pebbles-sand/_layout.svelte-bada949e.js",
+    "src": "src/routes/media/rocks-pebbles-sand/+layout.svelte",
     "isEntry": true,
     "imports": [
-      "_index-ef4f97a1.js",
-      "_Icon-35397eaa.js",
-      "_LicenseKeyInfo-e10c741a.js",
-      "_stores-e24c4eb2.js"
+      "_index-ccda9a55.js",
+      "_info-13a7f95e.js",
+      "_Heading-ad846718.js"
+    ]
+  },
+  "src/routes/media/should-engineering-managers-code/+layout.svelte": {
+    "file": "_app/immutable/components/pages/media/should-engineering-managers-code/_layout.svelte-0255a0f0.js",
+    "src": "src/routes/media/should-engineering-managers-code/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-ccda9a55.js",
+      "_info-13a7f95e.js",
+      "_Heading-ad846718.js"
+    ]
+  },
+  "src/routes/media/work-backwards/+layout.svelte": {
+    "file": "_app/immutable/components/pages/media/work-backwards/_layout.svelte-89460179.js",
+    "src": "src/routes/media/work-backwards/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-ccda9a55.js",
+      "_info-13a7f95e.js",
+      "_Heading-ad846718.js"
     ]
   },
   "src/routes/+page.svelte": {
-    "file": "_app/immutable/components/pages/_page.svelte-319fa07b.js",
+    "file": "_app/immutable/components/pages/_page.svelte-6e8014e1.js",
     "src": "src/routes/+page.svelte",
     "isEntry": true,
     "imports": [
-      "_index-ef4f97a1.js"
+      "_index-ccda9a55.js",
+      "_info-13a7f95e.js",
+      "_Heading-ad846718.js"
     ]
   },
-  "src/routes/companion/+page.svelte": {
-    "file": "_app/immutable/components/pages/companion/_page.svelte-f6e6d384.js",
-    "src": "src/routes/companion/+page.svelte",
+  "src/routes/books/+page.svelte": {
+    "file": "_app/immutable/components/pages/books/_page.svelte-4366fb33.js",
+    "src": "src/routes/books/+page.svelte",
     "isEntry": true,
     "imports": [
-      "_index-ef4f97a1.js",
+      "_index-ccda9a55.js",
+      "_PageHeader-fe9141c9.js",
       "_info-13a7f95e.js"
     ]
   },
-  "src/routes/companion/bak-playbooks/+page.svelte": {
-    "file": "_app/immutable/components/pages/companion/bak-playbooks/_page.svelte-c8a07056.js",
-    "src": "src/routes/companion/bak-playbooks/+page.svelte",
+  "src/routes/coaching/+page.svelte": {
+    "file": "_app/immutable/components/pages/coaching/_page.svelte-c3dbc42b.js",
+    "src": "src/routes/coaching/+page.svelte",
     "isEntry": true,
     "imports": [
-      "_index-ef4f97a1.js",
-      "_Icon-35397eaa.js",
-      "_PageHeader-600a26c6.js",
-      "_info-13a7f95e.js",
-      "_stores-539ba802.js"
-    ]
-  },
-  "src/routes/companion/bak-playbooks/aging/+page.svelte": {
-    "file": "_app/immutable/components/pages/companion/bak-playbooks/aging/_page.svelte-ad1b8454.js",
-    "src": "src/routes/companion/bak-playbooks/aging/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-ef4f97a1.js",
-      "_info-13a7f95e.js",
-      "_stores-539ba802.js",
-      "_AccessPanel-1c34b651.js",
-      "_dayjs.min-8a28323c.js",
-      "_ExpandableSection-a058a44e.js"
-    ],
-    "css": [
-      "_app/immutable/assets/ArrowUp-31e647e2.css"
-    ]
-  },
-  "src/routes/companion/bak-playbooks/bak-founding/+page.svelte": {
-    "file": "_app/immutable/components/pages/companion/bak-playbooks/bak-founding/_page.svelte-ab72a4ff.js",
-    "src": "src/routes/companion/bak-playbooks/bak-founding/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-ef4f97a1.js",
-      "_info-13a7f95e.js",
-      "_ExpandableSection-a058a44e.js"
-    ]
-  },
-  "src/routes/companion/bak-playbooks/founding/+page.svelte": {
-    "file": "_app/immutable/components/pages/companion/bak-playbooks/founding/_page.svelte-1f8d64fb.js",
-    "src": "src/routes/companion/bak-playbooks/founding/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-ef4f97a1.js",
+      "_index-ccda9a55.js",
+      "_PageHeader-fe9141c9.js",
+      "_Heading-ad846718.js",
       "_info-13a7f95e.js"
     ]
   },
-  "src/routes/companion/bak-playbooks/growing/+page.svelte": {
-    "file": "_app/immutable/components/pages/companion/bak-playbooks/growing/_page.svelte-8f3ebc62.js",
-    "src": "src/routes/companion/bak-playbooks/growing/+page.svelte",
+  "src/routes/contact/+page.svelte": {
+    "file": "_app/immutable/components/pages/contact/_page.svelte-ca616050.js",
+    "src": "src/routes/contact/+page.svelte",
     "isEntry": true,
     "imports": [
-      "_index-ef4f97a1.js",
-      "_info-13a7f95e.js",
-      "_stores-539ba802.js",
-      "_AccessPanel-1c34b651.js",
-      "_dayjs.min-8a28323c.js",
-      "_ExpandableSection-a058a44e.js"
-    ],
-    "css": [
-      "_app/immutable/assets/ArrowUp-31e647e2.css"
-    ]
-  },
-  "src/routes/companion/bak-playbooks/maturing/+page.svelte": {
-    "file": "_app/immutable/components/pages/companion/bak-playbooks/maturing/_page.svelte-9b1a2f26.js",
-    "src": "src/routes/companion/bak-playbooks/maturing/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-ef4f97a1.js",
-      "_info-13a7f95e.js",
-      "_stores-539ba802.js",
-      "_AccessPanel-1c34b651.js",
-      "_dayjs.min-8a28323c.js",
-      "_ExpandableSection-a058a44e.js"
-    ],
-    "css": [
-      "_app/immutable/assets/ArrowUp-31e647e2.css"
-    ]
-  },
-  "src/routes/companion/bak-playbooks/reference/+page.svelte": {
-    "file": "_app/immutable/components/pages/companion/bak-playbooks/reference/_page.svelte-0345bba8.js",
-    "src": "src/routes/companion/bak-playbooks/reference/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-ef4f97a1.js"
-    ]
-  },
-  "src/routes/companion/bak-playbooks/reference/context-and-responsibilities/+page.svelte": {
-    "file": "_app/immutable/components/pages/companion/bak-playbooks/reference/context-and-responsibilities/_page.svelte-54f75360.js",
-    "src": "src/routes/companion/bak-playbooks/reference/context-and-responsibilities/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-ef4f97a1.js",
-      "_info-13a7f95e.js",
-      "_Definition-a048335a.js"
-    ]
-  },
-  "src/routes/companion/bak-playbooks/reference/principles-and-practices/+page.svelte": {
-    "file": "_app/immutable/components/pages/companion/bak-playbooks/reference/principles-and-practices/_page.svelte-79c03d3a.js",
-    "src": "src/routes/companion/bak-playbooks/reference/principles-and-practices/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-ef4f97a1.js",
-      "_info-13a7f95e.js",
-      "_stores-539ba802.js",
-      "_Definition-a048335a.js"
-    ]
-  },
-  "src/routes/companion/coaching/+page.svelte": {
-    "file": "_app/immutable/components/pages/companion/coaching/_page.svelte-ab0dfc79.js",
-    "src": "src/routes/companion/coaching/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-ef4f97a1.js",
-      "_PageHeader-600a26c6.js",
+      "_index-ccda9a55.js",
+      "_PageHeader-fe9141c9.js",
+      "_Heading-ad846718.js",
       "_info-13a7f95e.js"
     ]
   },
-  "src/routes/companion/lessons/+page.svelte": {
-    "file": "_app/immutable/components/pages/companion/lessons/_page.svelte-b8240acb.js",
-    "src": "src/routes/companion/lessons/+page.svelte",
+  "src/routes/media/+page.svelte": {
+    "file": "_app/immutable/components/pages/media/_page.svelte-dbc52661.js",
+    "src": "src/routes/media/+page.svelte",
     "isEntry": true,
     "imports": [
-      "_index-ef4f97a1.js",
-      "_lessons-c88b2d9b.js",
+      "_index-ccda9a55.js",
+      "_PageHeader-fe9141c9.js",
+      "_Heading-ad846718.js",
       "_info-13a7f95e.js"
     ]
   },
-  "src/routes/companion/lessons/[lesson]/+page.svelte": {
-    "file": "_app/immutable/components/pages/companion/lessons/_lesson_/_page.svelte-fb1b3168.js",
-    "src": "src/routes/companion/lessons/[lesson]/+page.svelte",
+  "src/routes/media/5-things-to-be-a-great-leader/+page.svelte": {
+    "file": "_app/immutable/components/pages/media/5-things-to-be-a-great-leader/_page.svelte-ecb72419.js",
+    "src": "src/routes/media/5-things-to-be-a-great-leader/+page.svelte",
     "isEntry": true,
     "imports": [
-      "_index-ef4f97a1.js",
-      "_LessonNavigator-3a7bb70b.js",
-      "_info-13a7f95e.js"
+      "_index-ccda9a55.js"
     ]
   },
-  "src/routes/companion/lessons/[lesson]/[video]/+page.svelte": {
-    "file": "_app/immutable/components/pages/companion/lessons/_lesson_/_video_/_page.svelte-777f488f.js",
-    "src": "src/routes/companion/lessons/[lesson]/[video]/+page.svelte",
+  "src/routes/media/drunk-web-ep-45-engineering-management/+page.svelte": {
+    "file": "_app/immutable/components/pages/media/drunk-web-ep-45-engineering-management/_page.svelte-09da992c.js",
+    "src": "src/routes/media/drunk-web-ep-45-engineering-management/+page.svelte",
     "isEntry": true,
     "imports": [
-      "_index-ef4f97a1.js",
-      "_LessonNavigator-3a7bb70b.js",
-      "_info-13a7f95e.js"
+      "_index-ccda9a55.js"
     ]
   },
-  "src/routes/companion/media/+page.svelte": {
-    "file": "_app/immutable/components/pages/companion/media/_page.svelte-b440a8b0.js",
-    "src": "src/routes/companion/media/+page.svelte",
+  "src/routes/media/magic-moments/+page.svelte": {
+    "file": "_app/immutable/components/pages/media/magic-moments/_page.svelte-a9edbde3.js",
+    "src": "src/routes/media/magic-moments/+page.svelte",
     "isEntry": true,
     "imports": [
-      "_index-ef4f97a1.js",
-      "_PageHeader-600a26c6.js",
-      "_info-13a7f95e.js"
+      "_index-ccda9a55.js"
     ]
   },
-  "src/routes/companion/playbook/+page.svelte": {
-    "file": "_app/immutable/components/pages/companion/playbook/_page.svelte-d9db7265.js",
-    "src": "src/routes/companion/playbook/+page.svelte",
+  "src/routes/media/rocks-pebbles-sand/+page.svelte": {
+    "file": "_app/immutable/components/pages/media/rocks-pebbles-sand/_page.svelte-8fcde066.js",
+    "src": "src/routes/media/rocks-pebbles-sand/+page.svelte",
     "isEntry": true,
     "imports": [
-      "_index-ef4f97a1.js",
-      "_info-13a7f95e.js",
-      "_Heading-e303b286.js",
-      "_PlaybookNavigator-0d1ce00c.js"
+      "_index-ccda9a55.js"
     ]
   },
-  "src/routes/companion/playbook/culture/+page.svelte": {
-    "file": "_app/immutable/components/pages/companion/playbook/culture/_page.svelte-d8b72e4a.js",
-    "src": "src/routes/companion/playbook/culture/+page.svelte",
+  "src/routes/media/should-engineering-managers-code/+page.svelte": {
+    "file": "_app/immutable/components/pages/media/should-engineering-managers-code/_page.svelte-1eb01f13.js",
+    "src": "src/routes/media/should-engineering-managers-code/+page.svelte",
     "isEntry": true,
     "imports": [
-      "_index-ef4f97a1.js",
-      "_PlaybookNavigator-0d1ce00c.js",
-      "_Heading-e303b286.js",
-      "_Lockable-e76b2fd8.js",
-      "_stores-539ba802.js"
+      "_index-ccda9a55.js"
     ]
   },
-  "src/routes/companion/playbook/delivery/+page.svelte": {
-    "file": "_app/immutable/components/pages/companion/playbook/delivery/_page.svelte-bb13c493.js",
-    "src": "src/routes/companion/playbook/delivery/+page.svelte",
+  "src/routes/media/work-backwards/+page.svelte": {
+    "file": "_app/immutable/components/pages/media/work-backwards/_page.svelte-e6613260.js",
+    "src": "src/routes/media/work-backwards/+page.svelte",
     "isEntry": true,
     "imports": [
-      "_index-ef4f97a1.js",
-      "_PlaybookNavigator-0d1ce00c.js",
-      "_Heading-e303b286.js",
-      "_stores-539ba802.js",
-      "_ContentPlaceholder-370854d1.js"
-    ],
-    "css": [
-      "_app/immutable/assets/ArrowUp-31e647e2.css"
-    ]
-  },
-  "src/routes/companion/playbook/development/+page.svelte": {
-    "file": "_app/immutable/components/pages/companion/playbook/development/_page.svelte-d6fabab3.js",
-    "src": "src/routes/companion/playbook/development/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-ef4f97a1.js",
-      "_PlaybookNavigator-0d1ce00c.js",
-      "_Heading-e303b286.js",
-      "_ContentPlaceholder-370854d1.js",
-      "_stores-539ba802.js"
-    ],
-    "css": [
-      "_app/immutable/assets/ArrowUp-31e647e2.css"
-    ]
-  },
-  "src/routes/companion/playbook/hiring/+page.svelte": {
-    "file": "_app/immutable/components/pages/companion/playbook/hiring/_page.svelte-2898d3c0.js",
-    "src": "src/routes/companion/playbook/hiring/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-ef4f97a1.js",
-      "_PlaybookNavigator-0d1ce00c.js",
-      "_Heading-e303b286.js",
-      "_stores-539ba802.js",
-      "_ContentPlaceholder-370854d1.js"
-    ],
-    "css": [
-      "_app/immutable/assets/ArrowUp-31e647e2.css"
-    ]
-  },
-  "src/routes/companion/playbook/incidents/+page.svelte": {
-    "file": "_app/immutable/components/pages/companion/playbook/incidents/_page.svelte-4e67a5e5.js",
-    "src": "src/routes/companion/playbook/incidents/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-ef4f97a1.js",
-      "_PlaybookNavigator-0d1ce00c.js",
-      "_Heading-e303b286.js",
-      "_stores-539ba802.js",
-      "_ContentPlaceholder-370854d1.js"
-    ],
-    "css": [
-      "_app/immutable/assets/ArrowUp-31e647e2.css"
-    ]
-  },
-  "src/routes/companion/playbook/innovation/+page.svelte": {
-    "file": "_app/immutable/components/pages/companion/playbook/innovation/_page.svelte-f6d3b02e.js",
-    "src": "src/routes/companion/playbook/innovation/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-ef4f97a1.js",
-      "_PlaybookNavigator-0d1ce00c.js",
-      "_Heading-e303b286.js",
-      "_stores-539ba802.js",
-      "_ContentPlaceholder-370854d1.js"
-    ],
-    "css": [
-      "_app/immutable/assets/ArrowUp-31e647e2.css"
-    ]
-  },
-  "src/routes/companion/playbook/meetings/+page.svelte": {
-    "file": "_app/immutable/components/pages/companion/playbook/meetings/_page.svelte-3fcd3ca8.js",
-    "src": "src/routes/companion/playbook/meetings/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-ef4f97a1.js",
-      "_PlaybookNavigator-0d1ce00c.js",
-      "_Heading-e303b286.js",
-      "_stores-539ba802.js",
-      "_ContentPlaceholder-370854d1.js"
-    ],
-    "css": [
-      "_app/immutable/assets/ArrowUp-31e647e2.css"
-    ]
-  },
-  "src/routes/companion/playbook/onboarding/+page.svelte": {
-    "file": "_app/immutable/components/pages/companion/playbook/onboarding/_page.svelte-c6f83655.js",
-    "src": "src/routes/companion/playbook/onboarding/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-ef4f97a1.js",
-      "_PlaybookNavigator-0d1ce00c.js",
-      "_Heading-e303b286.js",
-      "_stores-539ba802.js",
-      "_ContentPlaceholder-370854d1.js"
-    ],
-    "css": [
-      "_app/immutable/assets/ArrowUp-31e647e2.css"
-    ]
-  },
-  "src/routes/companion/playbook/responsibilities/+page.svelte": {
-    "file": "_app/immutable/components/pages/companion/playbook/responsibilities/_page.svelte-59a0250e.js",
-    "src": "src/routes/companion/playbook/responsibilities/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-ef4f97a1.js",
-      "_PlaybookNavigator-0d1ce00c.js",
-      "_Heading-e303b286.js"
-    ]
-  },
-  "src/routes/companion/playbook/review/+page.svelte": {
-    "file": "_app/immutable/components/pages/companion/playbook/review/_page.svelte-40955dc7.js",
-    "src": "src/routes/companion/playbook/review/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-ef4f97a1.js",
-      "_PlaybookNavigator-0d1ce00c.js",
-      "_Heading-e303b286.js",
-      "_stores-539ba802.js",
-      "_ContentPlaceholder-370854d1.js"
-    ],
-    "css": [
-      "_app/immutable/assets/ArrowUp-31e647e2.css"
-    ]
-  },
-  "src/routes/companion/playbook/roadmapping/+page.svelte": {
-    "file": "_app/immutable/components/pages/companion/playbook/roadmapping/_page.svelte-87ea299d.js",
-    "src": "src/routes/companion/playbook/roadmapping/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-ef4f97a1.js",
-      "_PlaybookNavigator-0d1ce00c.js",
-      "_Heading-e303b286.js",
-      "_ContentPlaceholder-370854d1.js",
-      "_stores-539ba802.js"
-    ],
-    "css": [
-      "_app/immutable/assets/ArrowUp-31e647e2.css"
-    ]
-  },
-  "src/routes/companion/playbook/stack/+page.svelte": {
-    "file": "_app/immutable/components/pages/companion/playbook/stack/_page.svelte-ff5910e9.js",
-    "src": "src/routes/companion/playbook/stack/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-ef4f97a1.js",
-      "_PlaybookNavigator-0d1ce00c.js",
-      "_Heading-e303b286.js",
-      "_stores-539ba802.js"
-    ],
-    "css": [
-      "_app/immutable/assets/ArrowUp-31e647e2.css"
-    ]
-  },
-  "src/routes/companion/playbook/structure/+page.svelte": {
-    "file": "_app/immutable/components/pages/companion/playbook/structure/_page.svelte-e11b0518.js",
-    "src": "src/routes/companion/playbook/structure/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-ef4f97a1.js",
-      "_PlaybookNavigator-0d1ce00c.js",
-      "_Heading-e303b286.js",
-      "_Lockable-e76b2fd8.js",
-      "_stores-539ba802.js"
-    ]
-  },
-  "src/routes/companion/playbook/teambuilding/+page.svelte": {
-    "file": "_app/immutable/components/pages/companion/playbook/teambuilding/_page.svelte-afbdd401.js",
-    "src": "src/routes/companion/playbook/teambuilding/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-ef4f97a1.js",
-      "_PlaybookNavigator-0d1ce00c.js",
-      "_Heading-e303b286.js",
-      "_stores-539ba802.js",
-      "_ContentPlaceholder-370854d1.js"
-    ],
-    "css": [
-      "_app/immutable/assets/ArrowUp-31e647e2.css"
-    ]
-  },
-  "src/routes/companion/playbook/tools/+page.svelte": {
-    "file": "_app/immutable/components/pages/companion/playbook/tools/_page.svelte-5018adc7.js",
-    "src": "src/routes/companion/playbook/tools/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-ef4f97a1.js",
-      "_PlaybookNavigator-0d1ce00c.js",
-      "_Heading-e303b286.js",
-      "_Lockable-e76b2fd8.js",
-      "_stores-539ba802.js"
-    ]
-  },
-  "src/routes/companion/thanks/+page.svelte": {
-    "file": "_app/immutable/components/pages/companion/thanks/_page.svelte-e8c7868b.js",
-    "src": "src/routes/companion/thanks/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-ef4f97a1.js",
-      "_info-13a7f95e.js"
+      "_index-ccda9a55.js"
     ]
   },
   "src/routes/+layout.js": {
@@ -524,161 +219,42 @@
       "__layout-6d08a489.js"
     ]
   },
-  "src/routes/companion/lessons/[lesson]/+page.js": {
-    "file": "_app/immutable/modules/pages/companion/lessons/_lesson_/_page.js-982d7010.js",
-    "src": "src/routes/companion/lessons/[lesson]/+page.js",
-    "isEntry": true,
+  "_singletons-47064a3f.js": {
+    "file": "_app/immutable/chunks/singletons-47064a3f.js",
     "imports": [
-      "__page-9f9dcc18.js"
+      "_index-ccda9a55.js"
     ]
   },
-  "src/routes/companion/lessons/[lesson]/[video]/+page.js": {
-    "file": "_app/immutable/modules/pages/companion/lessons/_lesson_/_video_/_page.js-5b9c1876.js",
-    "src": "src/routes/companion/lessons/[lesson]/[video]/+page.js",
-    "isEntry": true,
-    "imports": [
-      "__page-22748e52.js"
-    ]
+  "_index-ccda9a55.js": {
+    "file": "_app/immutable/chunks/index-ccda9a55.js"
   },
-  "_singletons-f208db6b.js": {
-    "file": "_app/immutable/chunks/singletons-f208db6b.js",
+  "_stores-b50e8b2c.js": {
+    "file": "_app/immutable/chunks/stores-b50e8b2c.js",
     "imports": [
-      "_index-a8c01052.js"
-    ]
-  },
-  "_index-ef4f97a1.js": {
-    "file": "_app/immutable/chunks/index-ef4f97a1.js"
-  },
-  "_index-a8c01052.js": {
-    "file": "_app/immutable/chunks/index-a8c01052.js",
-    "imports": [
-      "_index-ef4f97a1.js"
+      "_index-ccda9a55.js",
+      "_singletons-47064a3f.js"
     ]
   },
   "__layout-6d08a489.js": {
     "file": "_app/immutable/chunks/_layout-6d08a489.js"
   },
-  "_stores-e24c4eb2.js": {
-    "file": "_app/immutable/chunks/stores-e24c4eb2.js",
-    "imports": [
-      "_index-ef4f97a1.js",
-      "_singletons-f208db6b.js"
-    ]
-  },
-  "_Icon-35397eaa.js": {
-    "file": "_app/immutable/chunks/Icon-35397eaa.js",
-    "imports": [
-      "_index-ef4f97a1.js"
-    ]
-  },
-  "_LicenseKeyInfo-e10c741a.js": {
-    "file": "_app/immutable/chunks/LicenseKeyInfo-e10c741a.js",
-    "imports": [
-      "_index-ef4f97a1.js",
-      "_stores-539ba802.js",
-      "_LicenseKeyValidator-a2195445.js",
-      "_dayjs.min-8a28323c.js"
-    ]
-  },
-  "_stores-539ba802.js": {
-    "file": "_app/immutable/chunks/stores-539ba802.js",
-    "imports": [
-      "_index-a8c01052.js"
-    ]
-  },
-  "_LicenseKeyValidator-a2195445.js": {
-    "file": "_app/immutable/chunks/LicenseKeyValidator-a2195445.js",
-    "imports": [
-      "_stores-539ba802.js"
-    ]
-  },
-  "_dayjs.min-8a28323c.js": {
-    "file": "_app/immutable/chunks/dayjs.min-8a28323c.js"
-  },
   "_info-13a7f95e.js": {
     "file": "_app/immutable/chunks/info-13a7f95e.js"
   },
-  "_PageHeader-600a26c6.js": {
-    "file": "_app/immutable/chunks/PageHeader-600a26c6.js",
+  "_Heading-ad846718.js": {
+    "file": "_app/immutable/chunks/Heading-ad846718.js",
     "imports": [
-      "_index-ef4f97a1.js"
+      "_index-ccda9a55.js"
     ]
   },
-  "_AccessPanel-1c34b651.js": {
-    "file": "_app/immutable/chunks/AccessPanel-1c34b651.js",
+  "_PageHeader-fe9141c9.js": {
+    "file": "_app/immutable/chunks/PageHeader-fe9141c9.js",
     "imports": [
-      "_index-ef4f97a1.js",
-      "_stores-539ba802.js",
-      "_LicenseKeyValidator-a2195445.js"
-    ],
-    "css": [
-      "_app/immutable/assets/ArrowUp-31e647e2.css"
-    ]
-  },
-  "_ExpandableSection-a058a44e.js": {
-    "file": "_app/immutable/chunks/ExpandableSection-a058a44e.js",
-    "imports": [
-      "_index-ef4f97a1.js",
-      "_Icon-35397eaa.js"
-    ]
-  },
-  "_Definition-a048335a.js": {
-    "file": "_app/immutable/chunks/Definition-a048335a.js",
-    "imports": [
-      "_index-ef4f97a1.js",
-      "_AccessPanel-1c34b651.js",
-      "_Icon-35397eaa.js",
-      "_Heading-e303b286.js"
-    ]
-  },
-  "_Heading-e303b286.js": {
-    "file": "_app/immutable/chunks/Heading-e303b286.js",
-    "imports": [
-      "_index-ef4f97a1.js"
-    ]
-  },
-  "_lessons-c88b2d9b.js": {
-    "file": "_app/immutable/chunks/lessons-c88b2d9b.js"
-  },
-  "_LessonNavigator-3a7bb70b.js": {
-    "file": "_app/immutable/chunks/LessonNavigator-3a7bb70b.js",
-    "imports": [
-      "_index-ef4f97a1.js",
-      "_Icon-35397eaa.js",
-      "_lessons-c88b2d9b.js"
-    ]
-  },
-  "__page-9f9dcc18.js": {
-    "file": "_app/immutable/chunks/_page-9f9dcc18.js"
-  },
-  "__page-22748e52.js": {
-    "file": "_app/immutable/chunks/_page-22748e52.js"
-  },
-  "_PlaybookNavigator-0d1ce00c.js": {
-    "file": "_app/immutable/chunks/PlaybookNavigator-0d1ce00c.js",
-    "imports": [
-      "_index-ef4f97a1.js",
-      "_Icon-35397eaa.js"
-    ]
-  },
-  "_Lockable-e76b2fd8.js": {
-    "file": "_app/immutable/chunks/Lockable-e76b2fd8.js",
-    "imports": [
-      "_index-ef4f97a1.js",
-      "_Heading-e303b286.js",
-      "_Icon-35397eaa.js",
-      "_AccessPanel-1c34b651.js"
-    ]
-  },
-  "_ContentPlaceholder-370854d1.js": {
-    "file": "_app/immutable/chunks/ContentPlaceholder-370854d1.js",
-    "imports": [
-      "_index-ef4f97a1.js",
-      "_PlaybookNavigator-0d1ce00c.js"
+      "_index-ccda9a55.js"
     ]
   },
   ".svelte-kit/generated/nodes/0.js": {
-    "file": "_app/immutable/chunks/0-55a26f58.js",
+    "file": "_app/immutable/chunks/0-58b9f619.js",
     "src": ".svelte-kit/generated/nodes/0.js",
     "isDynamicEntry": true,
     "imports": [
@@ -687,7 +263,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/1.js": {
-    "file": "_app/immutable/chunks/1-38f5f38c.js",
+    "file": "_app/immutable/chunks/1-faa04c54.js",
     "src": ".svelte-kit/generated/nodes/1.js",
     "isDynamicEntry": true,
     "imports": [
@@ -695,309 +271,143 @@
     ]
   },
   ".svelte-kit/generated/nodes/2.js": {
-    "file": "_app/immutable/chunks/2-fc0faeb2.js",
+    "file": "_app/immutable/chunks/2-34fe5229.js",
     "src": ".svelte-kit/generated/nodes/2.js",
     "isDynamicEntry": true,
     "imports": [
-      "src/routes/companion/+layout.svelte"
+      "src/routes/media/5-things-to-be-a-great-leader/+layout.svelte"
     ]
   },
   ".svelte-kit/generated/nodes/3.js": {
-    "file": "_app/immutable/chunks/3-b01f8afb.js",
+    "file": "_app/immutable/chunks/3-7dde0145.js",
     "src": ".svelte-kit/generated/nodes/3.js",
     "isDynamicEntry": true,
     "imports": [
-      "src/routes/companion/bak-playbooks/+layout.svelte"
+      "src/routes/media/drunk-web-ep-45-engineering-management/+layout.svelte"
     ]
   },
   ".svelte-kit/generated/nodes/4.js": {
-    "file": "_app/immutable/chunks/4-e0c7d06c.js",
+    "file": "_app/immutable/chunks/4-8f86ca09.js",
     "src": ".svelte-kit/generated/nodes/4.js",
     "isDynamicEntry": true,
     "imports": [
-      "src/routes/companion/bak-playbooks/founding/+layout.svelte"
+      "src/routes/media/magic-moments/+layout.svelte"
     ]
   },
   ".svelte-kit/generated/nodes/5.js": {
-    "file": "_app/immutable/chunks/5-e2289082.js",
+    "file": "_app/immutable/chunks/5-e44b6683.js",
     "src": ".svelte-kit/generated/nodes/5.js",
     "isDynamicEntry": true,
     "imports": [
-      "src/routes/companion/playbook/+layout.svelte"
+      "src/routes/media/rocks-pebbles-sand/+layout.svelte"
     ]
   },
   ".svelte-kit/generated/nodes/6.js": {
-    "file": "_app/immutable/chunks/6-16a02245.js",
+    "file": "_app/immutable/chunks/6-3217a670.js",
     "src": ".svelte-kit/generated/nodes/6.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/media/should-engineering-managers-code/+layout.svelte"
+    ]
+  },
+  ".svelte-kit/generated/nodes/7.js": {
+    "file": "_app/immutable/chunks/7-1394a2d1.js",
+    "src": ".svelte-kit/generated/nodes/7.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/media/work-backwards/+layout.svelte"
+    ]
+  },
+  ".svelte-kit/generated/nodes/8.js": {
+    "file": "_app/immutable/chunks/8-7d86bbf8.js",
+    "src": ".svelte-kit/generated/nodes/8.js",
     "isDynamicEntry": true,
     "imports": [
       "src/routes/+page.svelte"
     ]
   },
-  ".svelte-kit/generated/nodes/7.js": {
-    "file": "_app/immutable/chunks/7-a80a316d.js",
-    "src": ".svelte-kit/generated/nodes/7.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "src/routes/companion/+page.svelte"
-    ]
-  },
-  ".svelte-kit/generated/nodes/8.js": {
-    "file": "_app/immutable/chunks/8-ca0b32c3.js",
-    "src": ".svelte-kit/generated/nodes/8.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "src/routes/companion/bak-playbooks/+page.svelte"
-    ]
-  },
   ".svelte-kit/generated/nodes/9.js": {
-    "file": "_app/immutable/chunks/9-540f0bcf.js",
+    "file": "_app/immutable/chunks/9-26dcf174.js",
     "src": ".svelte-kit/generated/nodes/9.js",
     "isDynamicEntry": true,
     "imports": [
-      "src/routes/companion/bak-playbooks/aging/+page.svelte"
+      "src/routes/books/+page.svelte"
     ]
   },
   ".svelte-kit/generated/nodes/10.js": {
-    "file": "_app/immutable/chunks/10-3d12e7d8.js",
+    "file": "_app/immutable/chunks/10-69f53ba9.js",
     "src": ".svelte-kit/generated/nodes/10.js",
     "isDynamicEntry": true,
     "imports": [
-      "src/routes/companion/bak-playbooks/bak-founding/+page.svelte"
+      "src/routes/coaching/+page.svelte"
     ]
   },
   ".svelte-kit/generated/nodes/11.js": {
-    "file": "_app/immutable/chunks/11-16674b40.js",
+    "file": "_app/immutable/chunks/11-a311932d.js",
     "src": ".svelte-kit/generated/nodes/11.js",
     "isDynamicEntry": true,
     "imports": [
-      "src/routes/companion/bak-playbooks/founding/+page.svelte"
+      "src/routes/contact/+page.svelte"
     ]
   },
   ".svelte-kit/generated/nodes/12.js": {
-    "file": "_app/immutable/chunks/12-3fd76a18.js",
+    "file": "_app/immutable/chunks/12-e1a0a050.js",
     "src": ".svelte-kit/generated/nodes/12.js",
     "isDynamicEntry": true,
     "imports": [
-      "src/routes/companion/bak-playbooks/growing/+page.svelte"
+      "src/routes/media/+page.svelte"
     ]
   },
   ".svelte-kit/generated/nodes/13.js": {
-    "file": "_app/immutable/chunks/13-b0b08c23.js",
+    "file": "_app/immutable/chunks/13-c65d69ae.js",
     "src": ".svelte-kit/generated/nodes/13.js",
     "isDynamicEntry": true,
     "imports": [
-      "src/routes/companion/bak-playbooks/maturing/+page.svelte"
+      "src/routes/media/5-things-to-be-a-great-leader/+page.svelte"
     ]
   },
   ".svelte-kit/generated/nodes/14.js": {
-    "file": "_app/immutable/chunks/14-ce42118a.js",
+    "file": "_app/immutable/chunks/14-97009184.js",
     "src": ".svelte-kit/generated/nodes/14.js",
     "isDynamicEntry": true,
     "imports": [
-      "src/routes/companion/bak-playbooks/reference/+page.svelte"
+      "src/routes/media/drunk-web-ep-45-engineering-management/+page.svelte"
     ]
   },
   ".svelte-kit/generated/nodes/15.js": {
-    "file": "_app/immutable/chunks/15-06ec1ebc.js",
+    "file": "_app/immutable/chunks/15-ebdd44b7.js",
     "src": ".svelte-kit/generated/nodes/15.js",
     "isDynamicEntry": true,
     "imports": [
-      "src/routes/companion/bak-playbooks/reference/context-and-responsibilities/+page.svelte"
+      "src/routes/media/magic-moments/+page.svelte"
     ]
   },
   ".svelte-kit/generated/nodes/16.js": {
-    "file": "_app/immutable/chunks/16-a2a7abc2.js",
+    "file": "_app/immutable/chunks/16-ad4778dd.js",
     "src": ".svelte-kit/generated/nodes/16.js",
     "isDynamicEntry": true,
     "imports": [
-      "src/routes/companion/bak-playbooks/reference/principles-and-practices/+page.svelte"
+      "src/routes/media/rocks-pebbles-sand/+page.svelte"
     ]
   },
   ".svelte-kit/generated/nodes/17.js": {
-    "file": "_app/immutable/chunks/17-487ba42f.js",
+    "file": "_app/immutable/chunks/17-6d691d76.js",
     "src": ".svelte-kit/generated/nodes/17.js",
     "isDynamicEntry": true,
     "imports": [
-      "src/routes/companion/coaching/+page.svelte"
+      "src/routes/media/should-engineering-managers-code/+page.svelte"
     ]
   },
   ".svelte-kit/generated/nodes/18.js": {
-    "file": "_app/immutable/chunks/18-784200e4.js",
+    "file": "_app/immutable/chunks/18-d8f5546b.js",
     "src": ".svelte-kit/generated/nodes/18.js",
     "isDynamicEntry": true,
     "imports": [
-      "src/routes/companion/lessons/+page.svelte"
+      "src/routes/media/work-backwards/+page.svelte"
     ]
   },
-  ".svelte-kit/generated/nodes/19.js": {
-    "file": "_app/immutable/chunks/19-385d7b4d.js",
-    "src": ".svelte-kit/generated/nodes/19.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "__page-9f9dcc18.js",
-      "src/routes/companion/lessons/[lesson]/+page.svelte"
-    ]
-  },
-  ".svelte-kit/generated/nodes/20.js": {
-    "file": "_app/immutable/chunks/20-4584e685.js",
-    "src": ".svelte-kit/generated/nodes/20.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "__page-22748e52.js",
-      "src/routes/companion/lessons/[lesson]/[video]/+page.svelte"
-    ]
-  },
-  ".svelte-kit/generated/nodes/21.js": {
-    "file": "_app/immutable/chunks/21-29e7e984.js",
-    "src": ".svelte-kit/generated/nodes/21.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "src/routes/companion/media/+page.svelte"
-    ]
-  },
-  ".svelte-kit/generated/nodes/22.js": {
-    "file": "_app/immutable/chunks/22-aa090a5e.js",
-    "src": ".svelte-kit/generated/nodes/22.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "src/routes/companion/playbook/+page.svelte"
-    ]
-  },
-  ".svelte-kit/generated/nodes/23.js": {
-    "file": "_app/immutable/chunks/23-269d5c09.js",
-    "src": ".svelte-kit/generated/nodes/23.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "src/routes/companion/playbook/culture/+page.svelte"
-    ]
-  },
-  ".svelte-kit/generated/nodes/24.js": {
-    "file": "_app/immutable/chunks/24-66bb71f0.js",
-    "src": ".svelte-kit/generated/nodes/24.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "src/routes/companion/playbook/delivery/+page.svelte"
-    ]
-  },
-  ".svelte-kit/generated/nodes/25.js": {
-    "file": "_app/immutable/chunks/25-32dbfc6a.js",
-    "src": ".svelte-kit/generated/nodes/25.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "src/routes/companion/playbook/development/+page.svelte"
-    ]
-  },
-  ".svelte-kit/generated/nodes/26.js": {
-    "file": "_app/immutable/chunks/26-b9f773d5.js",
-    "src": ".svelte-kit/generated/nodes/26.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "src/routes/companion/playbook/hiring/+page.svelte"
-    ]
-  },
-  ".svelte-kit/generated/nodes/27.js": {
-    "file": "_app/immutable/chunks/27-a88bb4f4.js",
-    "src": ".svelte-kit/generated/nodes/27.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "src/routes/companion/playbook/incidents/+page.svelte"
-    ]
-  },
-  ".svelte-kit/generated/nodes/28.js": {
-    "file": "_app/immutable/chunks/28-98b9a398.js",
-    "src": ".svelte-kit/generated/nodes/28.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "src/routes/companion/playbook/innovation/+page.svelte"
-    ]
-  },
-  ".svelte-kit/generated/nodes/29.js": {
-    "file": "_app/immutable/chunks/29-e5a0a7f1.js",
-    "src": ".svelte-kit/generated/nodes/29.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "src/routes/companion/playbook/meetings/+page.svelte"
-    ]
-  },
-  ".svelte-kit/generated/nodes/30.js": {
-    "file": "_app/immutable/chunks/30-324ffd23.js",
-    "src": ".svelte-kit/generated/nodes/30.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "src/routes/companion/playbook/onboarding/+page.svelte"
-    ]
-  },
-  ".svelte-kit/generated/nodes/31.js": {
-    "file": "_app/immutable/chunks/31-f3f8ca9c.js",
-    "src": ".svelte-kit/generated/nodes/31.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "src/routes/companion/playbook/responsibilities/+page.svelte"
-    ]
-  },
-  ".svelte-kit/generated/nodes/32.js": {
-    "file": "_app/immutable/chunks/32-6894f886.js",
-    "src": ".svelte-kit/generated/nodes/32.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "src/routes/companion/playbook/review/+page.svelte"
-    ]
-  },
-  ".svelte-kit/generated/nodes/33.js": {
-    "file": "_app/immutable/chunks/33-8e3355dc.js",
-    "src": ".svelte-kit/generated/nodes/33.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "src/routes/companion/playbook/roadmapping/+page.svelte"
-    ]
-  },
-  ".svelte-kit/generated/nodes/34.js": {
-    "file": "_app/immutable/chunks/34-49208c33.js",
-    "src": ".svelte-kit/generated/nodes/34.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "src/routes/companion/playbook/stack/+page.svelte"
-    ]
-  },
-  ".svelte-kit/generated/nodes/35.js": {
-    "file": "_app/immutable/chunks/35-824b580a.js",
-    "src": ".svelte-kit/generated/nodes/35.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "src/routes/companion/playbook/structure/+page.svelte"
-    ]
-  },
-  ".svelte-kit/generated/nodes/36.js": {
-    "file": "_app/immutable/chunks/36-23a00b56.js",
-    "src": ".svelte-kit/generated/nodes/36.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "src/routes/companion/playbook/teambuilding/+page.svelte"
-    ]
-  },
-  ".svelte-kit/generated/nodes/37.js": {
-    "file": "_app/immutable/chunks/37-fd36ede8.js",
-    "src": ".svelte-kit/generated/nodes/37.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "src/routes/companion/playbook/tools/+page.svelte"
-    ]
-  },
-  ".svelte-kit/generated/nodes/38.js": {
-    "file": "_app/immutable/chunks/38-ec1543b4.js",
-    "src": ".svelte-kit/generated/nodes/38.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "src/routes/companion/thanks/+page.svelte"
-    ]
-  },
-  "app.css": {
-    "file": "_app/immutable/assets/app-962a32cc.css",
-    "src": "app.css"
-  },
-  "ArrowUp.css": {
-    "file": "_app/immutable/assets/ArrowUp-31e647e2.css",
-    "src": "ArrowUp.css"
+  "src/routes/+layout.css": {
+    "file": "_app/immutable/assets/_layout-acac6268.css",
+    "src": "src/routes/+layout.css"
   }
 }
