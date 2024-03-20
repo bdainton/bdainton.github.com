@@ -1,0 +1,9 @@
+import{S as q,i as B,s as I,k as l,q as f,a as L,l as p,m as u,r as c,h as n,c as M,n as d,b as T,D as a,A as E}from"../../../../chunks/index-ed6271b7.js";function R(P){let r,w,m,e,v,s,y,_,i,k,g,b,x;return{c(){r=l("p"),w=f(`In this video, we explore how leaders can step up and lead in the aftermath of a traumatic event
+  such as layoffs. We provide three ways to support those affected, whether they are gone,
+  remaining, or somewhere in between. Learn how to show compassion, provide support, and lead your
+  team through difficult times.`),m=L(),e=l("p"),v=f("Many thanks to my friend Claire Vo ("),s=l("a"),y=f("TikTok"),_=f(", "),i=l("a"),k=f("Twitter"),g=f(`) for allowing me to
+  reference her post-layoff leadership in this video.`),b=l("br"),x=l("br"),this.h()},l(t){r=p(t,"P",{class:!0});var h=u(r);w=c(h,`In this video, we explore how leaders can step up and lead in the aftermath of a traumatic event
+  such as layoffs. We provide three ways to support those affected, whether they are gone,
+  remaining, or somewhere in between. Learn how to show compassion, provide support, and lead your
+  team through difficult times.`),h.forEach(n),m=M(t),e=p(t,"P",{});var o=u(e);v=c(o,"Many thanks to my friend Claire Vo ("),s=p(o,"A",{target:!0,href:!0});var A=u(s);y=c(A,"TikTok"),A.forEach(n),_=c(o,", "),i=p(o,"A",{target:!0,href:!0});var C=u(i);k=c(C,"Twitter"),C.forEach(n),g=c(o,`) for allowing me to
+  reference her post-layoff leadership in this video.`),b=p(o,"BR",{}),x=p(o,"BR",{}),o.forEach(n),this.h()},h(){d(r,"class","pt-6"),d(s,"target","_blank"),d(s,"href","https://tiktok.com/@chiefproductofficer"),d(i,"target","_blank"),d(i,"href","https://twitter.com/clairevo")},m(t,h){T(t,r,h),a(r,w),T(t,m,h),T(t,e,h),a(e,v),a(e,s),a(s,y),a(e,_),a(e,i),a(i,k),a(e,g),a(e,b),a(e,x)},p:E,i:E,o:E,d(t){t&&n(r),t&&n(m),t&&n(e)}}}class V extends q{constructor(r){super(),B(this,r,null,R,I,{})}}export{V as default};
