@@ -36,8 +36,8 @@ import{S as qr,i as Dr,s as Hr,k as t,a as c,v,q as o,M as Cr,l as n,h as a,c as
     I'll invoice you (or your company, if they'll be supporting your investment in coaching) for $1500
     (USD) on the first of each month. It's `),it=t("b"),ka=o("month-to-month (no contract)"),Ba=o(`, so you can cancel
     any time.`),Pa=c(),re=t("p"),lt=t("b"),Aa=o("Do you have any other options?"),Ta=t("br"),La=o(`
-    If the fee for semi-weekly sessions is more than you'd like to pursue or you'd like to meet on a
-    less-frequent basis, I also offer the option to meet monthly for $750 (USD) per month.`),Wa=c(),oe=t("p"),Ma=o(`I'm pretty flexible, so if there's another coaching cadence that works better for you (weekly?
+    If the fee for biweekly sessions is more than you'd like to pursue or you'd like to meet on a less-frequent
+    basis, I also offer the option to meet monthly for $750 (USD) per month.`),Wa=c(),oe=t("p"),Ma=o(`I'm pretty flexible, so if there's another coaching cadence that works better for you (weekly?
     quarterly?), `),ke=t("a"),Sa=o("ping me"),za=o(" and I will certainly consider it."),qa=c(),I=t("p"),dt=t("b"),Da=o("How do I know if coaching is for me?"),Ha=t("br"),Ca=o(`
     Let's talk about it! I'm happy to connect for `),Be=t("a"),Ga=o("that first hour-long chat"),Ra=o(`
     and see if I can help give some ideas for your next steps. Just
@@ -79,8 +79,8 @@ import{S as qr,i as Dr,s as Hr,k as t,a as c,v,q as o,M as Cr,l as n,h as a,c as
     I'll invoice you (or your company, if they'll be supporting your investment in coaching) for $1500
     (USD) on the first of each month. It's `),it=n(Le,"B",{});var Tr=l(it);ka=s(Tr,"month-to-month (no contract)"),Tr.forEach(a),Ba=s(Le,`, so you can cancel
     any time.`),Le.forEach(a),Pa=h(i),re=n(i,"P",{});var $t=l(re);lt=n($t,"B",{});var Lr=l(lt);Aa=s(Lr,"Do you have any other options?"),Lr.forEach(a),Ta=n($t,"BR",{}),La=s($t,`
-    If the fee for semi-weekly sessions is more than you'd like to pursue or you'd like to meet on a
-    less-frequent basis, I also offer the option to meet monthly for $750 (USD) per month.`),$t.forEach(a),Wa=h(i),oe=n(i,"P",{});var Et=l(oe);Ma=s(Et,`I'm pretty flexible, so if there's another coaching cadence that works better for you (weekly?
+    If the fee for biweekly sessions is more than you'd like to pursue or you'd like to meet on a less-frequent
+    basis, I also offer the option to meet monthly for $750 (USD) per month.`),$t.forEach(a),Wa=h(i),oe=n(i,"P",{});var Et=l(oe);Ma=s(Et,`I'm pretty flexible, so if there's another coaching cadence that works better for you (weekly?
     quarterly?), `),ke=n(Et,"A",{href:!0});var Wr=l(ke);Sa=s(Wr,"ping me"),Wr.forEach(a),za=s(Et," and I will certainly consider it."),Et.forEach(a),qa=h(i),I=n(i,"P",{});var R=l(I);dt=n(R,"B",{});var Mr=l(dt);Da=s(Mr,"How do I know if coaching is for me?"),Mr.forEach(a),Ha=n(R,"BR",{}),Ca=s(R,`
     Let's talk about it! I'm happy to connect for `),Be=n(R,"A",{href:!0});var Sr=l(Be);Ga=s(Sr,"that first hour-long chat"),Sr.forEach(a),Ra=s(R,`
     and see if I can help give some ideas for your next steps. Just
